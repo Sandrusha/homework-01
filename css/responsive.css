@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@media screen and (max-width: 850px) {
+    #sortAZ, #sortZA, #sortLowHigh, #sortHighLow {
+        flex-basis: 48%;
+        margin-top: 0.5rem;
+    }
+    #sortLowHigh {
+        margin-left: 0;
+    }
+    #admin {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #addMovie, #addMovieBtn {
+        flex-basis: 100%;
+    }
+    .statistics {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+    .statistics div {
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+    }
+    .statistics div:last-child {
+        margin-bottom: 0;
+    }
+    #admin {
+        display: none;
+    }
+}
